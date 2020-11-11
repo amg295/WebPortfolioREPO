@@ -8,7 +8,10 @@ head
 {
 	style="color:darkgrey;"
 }
-
+h2
+{
+	text-decoration: underline;
+}
 .galleryAG
 {
 	text-align: center;
