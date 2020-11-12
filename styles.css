@@ -1,43 +1,34 @@
 
-body
-{
+body {
 	background-color: #FFF5EE;
 }
 
-head
-{
+head {
 	style="color: #A9A9A9;"
 }
-h2
-{
+h2 {
 	text-decoration: underline;
 }
-.galleryAG
-{
+.galleryAG {
 	text-align: center;
 }
-.galleryAG img
-{
+.galleryAG img {
 	height: 300px;
 	border: 4px solid #00000;
 	border-radius: 10px;
 }
-.galleryAG img:hover
-{
+.galleryAG img:hover {
 	opacity: 0.8;
 }
-.galleryEF
-{
+.galleryEF {
 	text-align: center;
 }
-.galleryEF img
-{
+.galleryEF img {
 	heigh: 300px;
 	border:4px solid #00000;
 	border-radius: 10px;
 }
-.galleryEF img:hover
-{
+.galleryEF img:hover {
 	opacity: 0.8;
 }
 .gallerySZ
@@ -50,12 +41,10 @@ h2
 	border: 4px solid #00000
 	border-radius: 10px;
 }
-.gallerySZ img:hover
-{
+.gallerySZ img:hover {
 	opacity: 0.8;
 }
-footer
-{
+footer {
 	border-top: 1px solid #fff;
 	text-align: center;
 	margin-top: 20px;
