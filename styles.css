@@ -1,4 +1,4 @@
-title {
+h1 {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 60px;
 	text-align: center;
@@ -13,7 +13,7 @@ body {
 	background-color: #FFF5EE;
 }
 
-head {
+header {
 	color: #A9A9A9;
 	font-size: 75%;
 	text-align: center;
@@ -25,9 +25,6 @@ head {
 	opacity: 0.8;
 }
 
-h2 {
-	text-decoration: underline;
-}
 nav {
 	text-align: center;
 	font-family: Tahoma, Geneva, sans-serif;
