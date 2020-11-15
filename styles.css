@@ -24,14 +24,14 @@ img {
 }
 head {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 65px;
+	font-size: 50px;
 	margin: auto;
 	padding-top: 20px;
 }
 	
 h1, h2 {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 60px;
+	font-size: 30px;
 	text-align: center;
 	background-color: #bfaeae;
 	color: #4c4c4c;
@@ -87,5 +87,6 @@ footer {
 	border-top: 1px solid #fff;
 	text-align: center;
 	margin-top: 20px;
+	font-size: 15px;
 }
 	
