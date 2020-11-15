@@ -41,12 +41,19 @@ nav {
 	text-align: center;
 }
 nav a {
-	margin: auto;
-	width: 50%;
-	border: 3px #ffffff;
-	padding: 10px 20px;
-	display: inline-block;
-	font-height: 50px;
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: #AE894C;
+	font-size: 17px;
+	color: white;
+	padding: 20px 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+nav a:hover {
+	background: skyblue;
+	color: black;
 }
 ul.a {
 	list-style-position: outside;
@@ -55,26 +62,26 @@ ul.a {
 .gallery {
 	text-align: center;
 }
-.gallery img {
+div.gallery img {
+	display: block;
 	width: 200px;
-	float: left;
-	margin-right: 30px;
+	margin-left: 30px;
 	border: 4px solid #00000;
 	border-radius: 10px;
 }
-.galleryAG img:hover {
+div.galleryAG img:hover {
 	height: 300px;
 	border: 4px solid #00000;
 	border-radius: 10px;
 	opacity: 0.8;
 }
-.galleryEF img:hover {
+div.galleryEF img:hover {
 	height: 300px;
 	border: 4px solid #00000;
 	border-raidus: 10px;
 	opacity: 0.8;
 }
-.gallerySZ img:hover {
+div.gallerySZ img:hover {
 	height: 300px;
 	border: 4px solid #00000;
 	border-radius: 10px;
