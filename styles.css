@@ -33,7 +33,6 @@ h1, h2 {
 nav {
 	background: rgba(255, 240, 250);
 	width: 100%;
-	text-align: center;
 	overflow: auto;
 }
 ul {
