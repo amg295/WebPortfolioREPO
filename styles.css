@@ -66,14 +66,14 @@ nav a:hover {
 	overflow: auto;
 }
 .gallery {
+	float: left;
+	width: 33.33%;
 	padding: 5px;
 	border: 1px solid #ccc;
-	float: left;
-	width: 390px;
 }
 .gallery img {
-	width: 100%;
-	height: auto;
+	content: "";
+	clear: both;
 	display: table;
 }
 .galleryAG {
