@@ -73,6 +73,7 @@ nav a:hover {
 .galleryH img {
 	width: 100%;
 	height: auto;
+	object-fit: contain;
 }
 .galleryAG {
 	margin: 5px;
