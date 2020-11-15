@@ -61,19 +61,18 @@ nav a:hover {
 .container {
 	max-width: 1200px;
 	margin: auto;
-	background: #F6C1E7;
+	background: rgba(255, 240, 250);
 	overflow: auto;
 }
 .galleryH {
-	float: left;
-	width: 33.33%;
-	padding: 5px;
+	margin: 5px;
 	border: 1px solid #ccc;
+	float: left;
+	width: 390px;
 }
 .galleryH img {
-	content: "";
-	clear: both;
-	display: table;
+	width: 100%;
+	height: auto;
 }
 .galleryAG {
 	margin: 5px;
