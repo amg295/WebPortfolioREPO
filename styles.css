@@ -21,7 +21,11 @@ h1, h2 {
 	font-size: 60px;
 	text-align: center;
 }
-#nav {
+nav {
+	background: rgba(255, 240, 250);
+	text-align: center;
+}
+nav a {
 	margin: auto;
 	width: 50%;
 	border: 3px #ffffff;
