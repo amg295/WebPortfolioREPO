@@ -28,7 +28,7 @@ h1, h2 {
 	padding: 10px;
 	font-height: 50px;
 }
-ul {
+ul.a {
 	list-style-position: outside;
 }
 .indexgallery img:hover {
