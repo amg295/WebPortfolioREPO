@@ -1,17 +1,11 @@
-html, body, div, h1, h2 {
-	margin: 0;
-	padding: 0;
-	border: 0px;
-	outline: 0px;
-	font-size: 100%;
-}
+
 * {
 	box-sizing: border-box;
 }
 body {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 20px;
-	background-color: #bfaeae;
+	background: #bfaeae;
 	margin: 0;
 	padding: 0;
 	color: #4c4c4c;
@@ -32,14 +26,13 @@ head {
 	
 h1, h2 {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 30px;
+	font-size: 45px;
 	text-align: center;
 	background-color: #bfaeae;
 	color: #4c4c4c;
 }
 nav {
 	background: rgba(255, 240, 250);
-	text-align: center;
 	width: 100%;
 	overflow: auto;
 }
