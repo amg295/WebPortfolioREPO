@@ -64,13 +64,13 @@ nav a:hover {
 	background: #F6C1E7;
 	overflow: auto;
 }
-.gallery {
+.galleryH {
 	float: left;
 	width: 33.33%;
 	padding: 5px;
 	border: 1px solid #ccc;
 }
-.gallery img {
+.galleryH img {
 	content: "";
 	clear: both;
 	display: table;
