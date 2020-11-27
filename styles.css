@@ -15,7 +15,7 @@ body {
 	font-size: 20px;
 	background: #bfaeae;
 	margin: 0;
-	color: #4c4c4c;
+	color: #000000;
 }
 .banner {
 	text-align: center;	
@@ -29,7 +29,7 @@ h1, h2 {
 	font-size: 35px;
 	text-align: center;
 	background-color: #bfaeae;
-	color: #4c4c4c;
+	color: #000000;
 }
 nav {
 	background: rgba(255, 240, 250);
@@ -85,7 +85,11 @@ nav a:hover {
 .galleryAG img {
 	width: 100%;
 	height: auto;
+	transition: transform .2s;
 }	
+.galleryAG: hover {
+	transform: scale(1.5);
+}
 .galleryEF {
 	margin: 5px;
 	border: 1px solid #ccc;
