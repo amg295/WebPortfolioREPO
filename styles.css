@@ -89,6 +89,7 @@ nav a:hover {
 }	
 .galleryAG:hover {
 	transform: scale(1.5);
+	overflow: visible;
 }
 .galleryEF {
 	margin: 5px;
@@ -103,6 +104,7 @@ nav a:hover {
 }
 .galleryEF:hover {
 	transform: scale(1.5);
+	overflow: visible;
 }
 .gallerySZ {
 	margin: 5px;
@@ -117,6 +119,7 @@ nav a:hover {
 }
 .gallerySZ:hover {
 	transform: scale(1.5);
+	overflow: visible;
 }
 .desc {
 	padding: 15px;
