@@ -74,8 +74,8 @@ nav a:hover {
 	justify-content: center;
 }
 .galleryH img {
-	width: 300px;
-	height: 300px;
+	width: 390px;
+	height: auto;
 	object-fit: contain;
 }
 .galleryAG {
@@ -100,6 +100,8 @@ nav a:hover {
 	border: 1px solid #ccc;
 	float: left;
 	width: 25%;
+	display: flex;
+	justify-content: center;
 }
 .galleryEF img {
 	width: 100%;
@@ -115,6 +117,8 @@ nav a:hover {
 	border: 1px solid #ccc;
 	float: left;
 	width: 25%;
+	display: flex;
+	justify-content: center;
 }
 .gallerySZ img {
 	width: 100%;
