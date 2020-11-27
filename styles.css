@@ -60,7 +60,7 @@ nav a:hover {
 	color: black;
 }
 .container {
-	max-width: none;
+	max-width: 1100;
 	margin: auto;
 	background: #fff0fa;
 	overflow: visible;
