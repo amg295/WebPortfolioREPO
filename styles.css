@@ -87,7 +87,7 @@ nav a:hover {
 	height: auto;
 	transition: transform .2s;
 }	
-.galleryAG: hover {
+.galleryAG:hover {
 	transform: scale(1.5);
 }
 .galleryEF {
