@@ -51,7 +51,7 @@ nav a {
 	text-align: center;
 	background: rgba(255, 240, 250);
 	font-size: 17px;
-	color: white;
+	color: #594848;
 	padding: 20px 10px;
 	font-family: Tahoma, Geneva, sans-serif;
 }
@@ -60,22 +60,21 @@ nav a:hover {
 	color: black;
 }
 .container {
-	width: 90%;
+	max-width: 1200px;
+	margin: auto;
 	padding: 10px;
-	margin: 100px auto;
 	background: #fff0fa;
 	overflow: auto;
 }
 .galleryH {
 	margin: 5px;
 	border: 1px solid #ccc;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+	float: left;
+	width: 390px;
 }
 .galleryH img {
+	width: 100%;
+	height: auto;
 	padding: 0px 20px;
 	transition: transform .2s;
 }
@@ -91,55 +90,58 @@ nav a:hover {
 .galleryAG {
 	margin: 5px;
 	border: 1px solid #ccc;
+	float: left;
+	width: 25%;
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
 	justify-content: center;
 }
 .galleryAG img {
+	width: 100%;
+	height: auto;
 	padding: 0px 20px;
 	transition: transform .2s;
 }	
 .galleryAG:hover {
 	transform: scale(1.3);
-	background: #ff800a;
+	background: #080808;
 	box-shadow: 2px 2px 2px #000;
 }
 .galleryEF {
 	margin: 5px;
 	border: 1px solid #ccc;
+	float: left;
+	width: 25%;
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
 	justify-content: center;
 }
 .galleryEF img {
+	width: 100%;
+	height: auto;
 	padding: 0px 20px;
 	transition: transform .2s;
 }
 .galleryEF:hover {
 	transform: scale(1.3);
-	background: #ff800a;
+	background: #080808;
 	box-shadow: 2px 2px 2px #000;
 }
 .gallerySZ {
 	margin: 5px;
 	border: 1px solid #ccc;
+	float: left;
+	width: 25%;
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
 	justify-content: center;
 }
 .gallerySZ img {
+	width: 100%;
+	height: auto;
 	padding: 0px 20px;
 	transition: transform .2s;
 }
 .gallerySZ:hover {
 	transform: scale(1.3);
-	background: #ff800a;
+	background: #080808;
 	box-shadow: 2px 2px 2px #000;
 }
 .desc {
