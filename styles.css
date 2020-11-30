@@ -62,7 +62,6 @@ nav a:hover {
 .container {
 	max-width: 1200px;
 	margin: auto;
-	padding: 10px;
 	background: #fff0fa;
 	overflow: auto;
 }
@@ -75,14 +74,13 @@ nav a:hover {
 .galleryH img {
 	width: 100%;
 	height: auto;
-	padding: 0px 20px;
 	transition: all .2s ease-in-out;
-	object-fit: contain;
 }
 .galleryH img:hover {
-	transform: scale(1.1);
+	transform: scale(1.3);
 	background: #ff800a;
 	box-shadow: 2px 2px 2px #000;
+	object-fit: contain;
 }
 .desc {
 	padding: 15px;
@@ -92,55 +90,46 @@ nav a:hover {
 	margin: 5px;
 	border: 1px solid #ccc;
 	float: left;
-	width: 25%;
-	display: flex;
-	justify-content: center;
+	width: 390px;
 }
 .galleryAG img {
 	width: 100%;
 	height: auto;
-	padding: 0px 20px;
-	object-fit: contain;
 	transition: all .2s ease-in-out;
 }	
 .galleryAG:hover {
-	transform: scale(1.1);
+	transform: scale(1.3);
+	object-fit: contain;
 }
 .galleryEF {
 	margin: 5px;
 	border: 1px solid #ccc;
 	float: left;
-	width: 25%;
-	display: flex;
-	justify-content: center;
+	width: 390px;
 }
 .galleryEF img {
 	width: 100%;
 	height: auto;
-	padding: 0px 20px;
 	transition: all .2s ease-in-out;
-	object-fit: contain;
 }
 .galleryEF:hover {
-	transform: scale(1.1);
+	transform: scale(1.3);
+	object-fit: contain;
 }
 .gallerySZ {
 	margin: 5px;
 	border: 1px solid #ccc;
 	float: left;
-	width: 25%;
-	display: flex;
-	justify-content: center;
+	width: 390px;
 }
 .gallerySZ img {
 	width: 100%;
 	height: auto;
-	padding: 0px 20px;
 	transition: all .2s ease-in-out;
-	object-fit: contain;
 }
 .gallerySZ:hover {
-	transform: scale(1.1);
+	transform: scale(1.3);
+	object-fit: contain;
 }
 .desc {
 	padding: 15px;
@@ -148,7 +137,7 @@ nav a:hover {
 }
 footer {
 	padding: 10px;
-	font-size: 20px;
+	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
 	border-top: 1px solid #fff;
