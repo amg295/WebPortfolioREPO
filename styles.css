@@ -49,7 +49,7 @@ nav a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	background: #AE894C;
+	background: rgba(255, 240, 250);
 	font-size: 17px;
 	color: white;
 	padding: 20px 10px;
@@ -60,107 +60,87 @@ nav a:hover {
 	color: black;
 }
 .container {
-	width: 100%;
-	max-width: 120rem;
-	margin: auto;
+	width: 90%;
+	padding: 10px;
+	margin: 100px auto;
 	background: #fff0fa;
-	padding: 0 1.5rem;
+	overflow: auto;
 }
 .galleryH {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: auto;
-	grid-gap: 1.5rem;
-}
-.galleryH {
-	width: 100%;
-	height: 25rem;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+	margin: 5px;
+	border: 1px solid #ccc;
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	text-decoration: none;
 }
 .galleryH img {
-	color: rgba(255,255,255, .6);
-	font-size: 3rem;
-	position: relative;
-	z-index: 100;
-	padding: 1rem 3rem;
-	border: 2px solid rgba(255,255,255, .6);
-	border-radius: .4rem;
-	opacity: 0;
-	transition: opacity .5s;
+	padding: 0px 20px;
+	transition: transform .2s;
 }
-.galleryH::before{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background-color: rgba(0,0,0,.8);
-	opacity: 0;
-	transition: opacity .5s;
+.galleryH img:hover {
+	transform: scale(1.3);
+	background: #ff800a;
+	box-shadow: 2px 2px 2px #000;
 }
-.galleryH:hover i,
-.galleryH:hover::before{
-	opacity:1;
+.desc {
+	padding: 15px;
+	text-align: center;
 }
-	
 .galleryAG {
 	margin: 5px;
 	border: 1px solid #ccc;
-	float: left;
-	width: 25%;
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
 	justify-content: center;
 }
 .galleryAG img {
-	width: 100%;
-	height: auto;
+	padding: 0px 20px;
 	transition: transform .2s;
 }	
 .galleryAG:hover {
-	transform: scale(1.5);
-	overflow: visible;
+	transform: scale(1.3);
+	background: #ff800a;
+	box-shadow: 2px 2px 2px #000;
 }
 .galleryEF {
 	margin: 5px;
 	border: 1px solid #ccc;
-	float: left;
-	width: 25%;
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
 	justify-content: center;
 }
 .galleryEF img {
-	width: 100%;
-	height: auto;
+	padding: 0px 20px;
 	transition: transform .2s;
 }
 .galleryEF:hover {
-	transform: scale(1.5);
-	overflow: visible;
+	transform: scale(1.3);
+	background: #ff800a;
+	box-shadow: 2px 2px 2px #000;
 }
 .gallerySZ {
 	margin: 5px;
 	border: 1px solid #ccc;
-	float: left;
-	width: 25%;
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
 	justify-content: center;
 }
 .gallerySZ img {
-	width: 100%;
-	height: auto;
+	padding: 0px 20px;
 	transition: transform .2s;
 }
 .gallerySZ:hover {
-	transform: scale(1.5);
-	overflow: visible;
+	transform: scale(1.3);
+	background: #ff800a;
+	box-shadow: 2px 2px 2px #000;
 }
 .desc {
 	padding: 15px;
@@ -168,9 +148,7 @@ nav a:hover {
 }
 footer {
 	padding: 10px;
-	height: 50px;
-	margin-top: -50px;
-	font-size: 10px;
+	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 	border-top: 1px solid #fff;
@@ -179,4 +157,3 @@ footer {
 	font-family: Tahoma, Geneva, sans-serif;
 	letter-spacing: 1px;
 }
-	
