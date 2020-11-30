@@ -77,6 +77,7 @@ nav a:hover {
 	height: auto;
 	padding: 0px 20px;
 	transition: all .2s ease-in-out;
+	object-fit: contain;
 }
 .galleryH img:hover {
 	transform: scale(1.1);
@@ -99,6 +100,7 @@ nav a:hover {
 	width: 100%;
 	height: auto;
 	padding: 0px 20px;
+	object-fit: contain;
 	transition: all .2s ease-in-out;
 }	
 .galleryAG:hover {
@@ -117,6 +119,7 @@ nav a:hover {
 	height: auto;
 	padding: 0px 20px;
 	transition: all .2s ease-in-out;
+	object-fit: contain;
 }
 .galleryEF:hover {
 	transform: scale(1.1);
@@ -134,6 +137,7 @@ nav a:hover {
 	height: auto;
 	padding: 0px 20px;
 	transition: all .2s ease-in-out;
+	object-fit: contain;
 }
 .gallerySZ:hover {
 	transform: scale(1.1);
